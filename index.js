@@ -32,7 +32,7 @@ function Population(){
         this.rockets[i] = new Rocket();
     }
 
-    this.evaluate(){
+    this.evaluate = function(){
 
         var maxfit = 0;
         for(var i = 0; i<this.popsize; i++){
